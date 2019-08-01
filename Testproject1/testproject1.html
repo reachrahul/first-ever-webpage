@@ -1,0 +1,309 @@
+<htmL>
+<head>
+ <title>Lawyer Up</title> 
+    </head>
+ <link rel="shortcut icon" type="image/png" href="file:///C:/Users/rahul%20saini/Desktop/Testproject1/index.png"/> 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+    <style type = "text/css">
+        body{
+            height: 100%;
+           background-image: url(main-img.png);
+            
+            
+        }
+        #fullpage{
+            height: 100%;
+            overflow-x: scroll;
+            position: relative;
+        }
+        #navibar{
+            position: relative;
+           width: 100%;
+           height: 45px;
+        /*  background-color: #355C7D; */
+        padding: 0px;
+            margin: 0px;
+           }
+        
+        #logo{
+            width:45px;
+            height: 45px;
+            float: left;
+           padding-right:4px;
+        }
+        
+        .give-border{
+            border-bottom-color: darkgrey;
+            border-bottom-style: inset;
+            border-bottom-width: medium;
+            width: 1px;
+            height: 2px;
+        }
+        
+        #searchlogo{
+             float:right;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 2px;
+            left: 160px;
+        }
+        
+        .border{
+            float:right;
+            position: absolute;
+            top: 0px;
+            left: 154px;
+            border-left-color:darkslategrey;
+            border-left-style: solid;
+            height: 30px;
+            border-left-width: thin;
+          }
+        
+        #loginlogo{
+            float:right;
+            position: relative;
+            top:-24px;
+            left: -10px;
+            border-left-color: darkslategray;
+            border-left-style: dotted;
+            }
+       
+        .bordertop{
+            float: left;
+            border: 1px;
+            border-left-color: #302929;
+            border-left-style: solid;
+            height: 45px;
+            padding-left: 4px;
+           }
+        
+        #thename{
+            font-size: 2em;
+            font-weight: bolder;
+            font-family: 'oxygen',sans-serif;
+            color: #3366ff;
+            padding-left: 3px;
+        }
+        
+        #mybar{
+            
+           top: 48px;
+            left:0px;
+           width:100%;
+            height: 35px;
+            background-color: yellowgreens; 
+            align-content: center;
+                }
+        
+        #navibar a{
+            float:right;
+            font-size: 150%;
+            color:#F67280;
+            padding: 5px 10px 5px 10px;
+            text-decoration: none;
+        }
+       
+        #login-link:hover{
+            font-size: 150%;
+            text-decoration: underline;
+            color: wheat;
+             background-color: skyblue;
+            background-size: contain;
+             transition-property: background;
+             transition-duration: 0.8s;
+             }
+        
+       
+      body{
+          margin: 0px;
+          padding: 0px;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 100;
+            font-family: sans-serif;
+            color: green;
+            }
+        
+        .input{
+            position:relative;
+            left: 1100px;
+            width: 185px;
+            height: 30px;
+            top:6px;
+            }
+        
+        .input input{
+            position: relative;
+            height: 30px;
+            width: 150px;
+            top:-45px;
+            background-color: #E9E9E9;
+        }
+        
+        #mybarname{
+            
+            list-style-type: none;
+            padding-top: 5px;
+            font-family: Georgia, serif;
+            font-size: 16;
+            margin-left: 15%;
+        }
+        
+        .list{
+            position: relative;
+            float:left;
+            top: -13px;
+            right: 220px;
+            padding-right: 20px;
+            padding-left: 10px;
+            border-right-style: solid;
+           
+            border-right-width: thin;
+            margin-right: 2px;
+            border-right: 2px;
+            height: 20px;
+            border-right-color: slategray;
+            border-right-style: solid;
+            display: inline;
+            
+        }
+       
+        .list-link{
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            color: navajowhite;
+        }
+       
+        .list-link:hover:after{
+            width:100%;
+            transition: width 0.5s;
+            height: 3px;
+        }
+        .list-link:after{
+            content: '';
+            display: block;
+            width: 0%;
+            height: 2px;
+            background: #DED4CB;
+            transition: width 0.5s;
+        }
+        .list-link:before{
+            content:""; 
+            width:100%;
+            height:100%;
+            position:absolute;
+            padding:8px;
+            top:-8px;
+            left:-8px;
+        }
+        #right-frame{
+           
+            padding-right: 15px;
+            border-left: 1px solid #000;
+            border-left-color: #000;
+            border-left-style: solid;
+            border-left-width: 1px;
+            position: relative;
+            
+            float:right;
+            right: 0px;
+         top: 80px;
+           width: 300px;
+           height: 100%;
+         /* background-color: #355C7D; */ 
+        padding: 10px;
+            margin: 0px;
+             }    
+        #right-frame-head{
+            text-decoration: underline;
+            font-family: arial;
+            position: relative;
+            top: -25px;
+        }
+        #right-frame-item1{
+            position: relative;
+            top: -20px;
+            
+            height: 200px;
+            width: 295px;
+        }
+        .normal-text{
+            font-family: nyt-imperial;
+            text-indent: 10px;
+            color: white;
+        }
+       
+    </style>
+  <body>
+   <div id="fullpage">
+    <div id="navibar" class="give-border">
+       <img id="logo" src="logo.png">
+      <div id="thename" >   
+        <span class="bordertop" >Lawyer Up</span>
+        </div>   
+         <div class="input">
+           <form>
+             <input type="search" placeholder="Search">
+           </form>
+            <div class="border">
+             </div>
+             <img id="searchlogo" src="search.png">
+         </div>
+           <div id="loginlogo">
+               <a id="login-link"href="login.html">
+         <img src="login.png">
+               </a>
+        </div>
+      </div> 
+       <div id="mybar" style="float: left; position: absolute">
+           <ul id="mybarname">  
+             <li class ="list">
+                 <a class="list-link" href="http://ianlunn.github.io/Hover/" >name</a>
+               </li>
+             <li class="list">
+            <a class="list-link" href="http://ianlunn.github.io/Hover/">another name</a> 
+               </li>
+             <li class="list">
+                 <a class="list-link" href="http://ianlunn.github.io/Hover/">one more name</a>
+               </li>         
+             <li class ="list">
+                 <a class="list-link" href="http://ianlunn.github.io/Hover/">  name4</a>
+               </li>
+             <li class="list">
+                 <a class="list-link" href="http://ianlunn.github.io/Hover/">name five</a>
+               </li> 
+             <li class="list">
+                 <a class="list-link" href="http://ianlunn.github.io/Hover/">last name</a>
+               </li>
+           </ul>
+       </div>
+       <div id=right-frame>
+           <h3 id="right-frame-head">New for you</h3>
+             <div id="right-frame-item1">
+             <h4 style="font-family: sans-serif; text-decoration: underline">This is the new trend 1</h4>
+                 <p class="normal-text" >The finite nerve shouts near a drying mechanism. Will the crunch receive a contrast? The woman rends the guidance. An integral opera degenerates near the parent.nyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperial</p>
+                 
+                 <h4 style="font-family: sans-serif; text-decoration: underline">This is the new trend 2</h4>
+                 <p class="normal-text" >The finite nerve shouts near a drying mechanism. Will the crunch receive a contrast? The woman rends the guidance. An integral opera degenerates near the parent.nyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperial</p>
+                 
+                 <h4 style="font-family: sans-serif; text-decoration: underline">This is the new trend 3</h4>
+                 <p class="normal-text" >The finite nerve shouts near a drying mechanism. Will the crunch receive a contrast? The woman rends the guidance. An integral opera degenerates near the parent.nyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperial</p>
+                 
+                 <h4 style="font-family: sans-serif; text-decoration: underline">This is the new trend 4</h4>
+                 <p class="normal-text" >The finite nerve shouts near a drying mechanism. Will the crunch receive a contrast? The woman rends the guidance. An integral opera degenerates near the parent.nyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperialnyt-imperial</p>
+            </div>
+           
+       </div>
+       <div id="main-content">
+       
+       </div>
+     <!--   <h1> Welcome </h1> -->
+    </div>   <! div=fullpage >
+    
+</body>  
+</htmL>
